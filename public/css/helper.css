@@ -1,0 +1,128 @@
+h1 {
+    text-align: center;
+    color: #808080;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 19px
+}
+
+footer {
+    margin-top: 40px;
+    padding: 10px !important;
+    color: white !important;
+    background-color: black !important;
+}
+
+.logo {
+    width: 191.5px !important;
+    height: 65.5px !important;
+}
+
+.is-hoverable:hover {
+    background-color: #99e6ff;
+}
+
+.text-setup {
+    text-align: center;
+    align-items: center;
+}
+
+.navbar-custom {
+    heigt: 5rem;
+    margin-top: 3rem;
+}
+
+hr {
+    margin-top: -1px;
+    border: solid 1px;
+    border-color: #d9d9d9;
+    margin-bottom: 40px;
+}
+
+.main-container {
+    height: 100px;
+    width: 100%;
+}
+
+.header-image {
+    background-image: url("/images/hero.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    margin-bottom: 5px;
+}
+
+.header-image:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier */
+}
+
+.img-setting {
+    height: 200px !important;
+    width: 300px !important;
+}
+
+.frame-of-photo {
+    height: 170px !important;
+    width: 300px !important;
+}
+
+.container-text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+    height: auto;
+    width: auto;
+}
+
+img:hover {
+    border: solid 2px;
+    border-color: black;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier */
+}
+
+.hospital-list-setup {
+    border: solid 1px;
+    border-color: grey;
+}
+
+.hospital-list-element {
+    margin: auto;
+    margin-top: 40px;
+}
+
+.thumbnail {
+    /*enlarge images */
+    min-width: 300px;
+    height: 150px;
+}
+
+/*below is the css for show.blade.php ==================================================================================================*/
+.hero-container-setting {
+    width: 600px !important;
+    margin-top: -50px !important;
+}
+
+.posted-review-container {
+    margin-top: -20% !important;
+}
